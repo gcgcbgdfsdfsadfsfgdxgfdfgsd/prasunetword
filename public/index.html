@@ -7,8 +7,8 @@
   <link rel="icon" href="./wordcraft-fa59e09a3f921e03.ico" integrity="sha384-99DzWb82rFgkdw7hjKziyDQaHbMTklb9MWeLKF7LcVUnq80H4nDrc/pjHJtAj/AA"/>
   
 <script type="module">
-import init, * as bindings from './wordcraft-web-896d9f95bd23115c.js';
-const wasm = await init({ module_or_path: './wordcraft-web-573f65103c449cfa_bg.wasm' });
+import init, * as bindings from './wordcraft-web-bc1a36c32d57ebb7.js';
+const wasm = await init({ module_or_path: './wordcraft-web-5bb22859a02ac41f_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -23,7 +23,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
     #wordcraft_loading { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
       color: #555; font: 14px system-ui, sans-serif; pointer-events: none; }
   </style>
-<link rel="modulepreload" href="./wordcraft-web-896d9f95bd23115c.js" crossorigin="anonymous" integrity="sha384-1dR9BrnMa3dZ5JvVr3vFGdd96cEhNKdtDPnh7Ba7/fb/ecNll/vD+Onk4IZDnBcx"><link rel="modulepreload" href="./snippets/eframe-d31a8450ea12dfc1/inline0.js" crossorigin="anonymous" integrity="sha384-uPZQ72BwgZ4v7Km6+UIFbkDDlt7ShGEsAVEHVN/+wZSGFhItJZB83iKMFQXauTSs"><link rel="preload" href="./wordcraft-web-573f65103c449cfa_bg.wasm" crossorigin="anonymous" integrity="sha384-bzQB8DjfpGZMiXhRKg3U6i9UTZ1QrxCPxCMUceWwF+iR0uZb77WyCXSVX4rX7FOX" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="./wordcraft-web-bc1a36c32d57ebb7.js" crossorigin="anonymous" integrity="sha384-YTKoOfNLkVz0a4LT3MuuqyIMbvd9aesWbDZjKZzyVfMqDLUba8SVIibefIOHakWZ"><link rel="modulepreload" href="./snippets/eframe-d31a8450ea12dfc1/inline0.js" crossorigin="anonymous" integrity="sha384-uPZQ72BwgZ4v7Km6+UIFbkDDlt7ShGEsAVEHVN/+wZSGFhItJZB83iKMFQXauTSs"><link rel="preload" href="./wordcraft-web-5bb22859a02ac41f_bg.wasm" crossorigin="anonymous" integrity="sha384-2acIo5bwtrwRZxSUR7+7h1jIa53zaDPKfhwEJueErKZnyLhzabSutlOOAVWa7kET" as="fetch" type="application/wasm"></head>
 <body>
   <canvas id="wordcraft_canvas"></canvas>
   <div id="wordcraft_loading">Loading PRASUNET WORD&hellip;</div>
